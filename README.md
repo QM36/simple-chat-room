@@ -13,6 +13,13 @@
 * 有头像展示，头像是用户名的首字母大写生成的
 	![](http://ww1.sinaimg.cn/large/006XqmrNly1g60gajj4xmj31di15gdip.jpg)
 
+### 运行方式
+```
+git clone https://github.com/QM36/simple-chat-room.git
+cd simple-chat-room
+node app.js
+```
+
 ### 难点
 * 用户身份的判定：利用cookie,但是由于WebSocket是一种长连接的协议，本身不需要cookie记录连接状态，所以在其报文中并不会自动带cookie，需要手动带，可以选择带在报文头，此处的方案是携带在发送的message信息中。message只能是string类型，所以首先将message构造成对象，在传输是转为字符串，解析时再转为对象
 	```js

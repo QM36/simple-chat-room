@@ -1,0 +1,100 @@
+#all {
+	display: flex;
+	justify-content: space-between;
+}
+#body {
+	width: 68%;
+	border: 1px solid #C0C0C0;
+	border-radius: 8px;
+}
+.head {
+	background-color: #E8E8E8;
+	height: 60px;
+	font-size: 20px;
+	font-weight:bold;
+	padding-left: 10px;
+	line-height: 60px;
+	border-radius: 8px;
+}
+#content {
+	height: 600px; 
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+}
+#option {
+	margin-top: 20px; 
+	display: flex; 
+	align-items: center;
+}
+.messageDiv {
+	background-color: #E8E8E8;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 8px;
+	margin-left: 10px;
+}
+#input {
+	width: 90%; 
+	height: 40px; 
+	font-size:26px;
+	margin: 0 0 10px 10px;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+}
+#send {
+    border: 1px solid #C0C0C0;
+	width: 10%; 
+	height: 43px;
+	margin: 0 10px 10px 0;
+	border-radius: 5px;
+}
+#send:hover{
+    color: #fff;
+    background: #C0C0C0;
+}
+#sidebar {
+	width: 30%;
+	border: 1px solid #C0C0C0;
+	border-radius: 8px;
+}
+.message {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+}
+.portrait {
+	min-width: 40px;
+	height: 40px;
+	color: #C0C0C0;
+	font-size: 20px;
+	font-weight:bold;
+	line-height: 40px;
+	text-align:center;
+	background-color: pink;
+	border-radius: 30px;
+}
+.selfMessage {
+	margin: 10px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.selfMessageDiv {
+	background-color: #33CCFF;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+.sysMessage {
+	margin: 10px;
+	display: flex;
+	align-self: center;
+}
+.sysMessageDiv {
+	background-color: #E8E8E8;
+	font-size: 16px;
+	padding: 3px;
+	border-radius: 8px;
+	color: #A0A0A0;
+}
