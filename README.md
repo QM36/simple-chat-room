@@ -1,4 +1,4 @@
-### 基于WebSocket实现的简易聊天室
+#### 基于WebSocket实现的简易聊天室
 
 ### 技术栈
 * 协议层：WebSocket
@@ -10,6 +10,7 @@
 * 支持cookie身份验证，无需登录注册，第一次进入页面设置用户名即可，cookie过期即用户名失效，也可以手动在浏览器删除cookie
 * 右侧展示所有已经连接的所有用户的用户名
 * 有用户退出和加入的系统提醒
+* 有头像展示，头像是用户名的首字母大写生成的
 * ![](http://ww1.sinaimg.cn/large/006XqmrNly1g60gajj4xmj31di15gdip.jpg)
 
 ### 难点
