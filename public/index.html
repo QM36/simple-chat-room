@@ -154,7 +154,6 @@
 			})
 			window.onbeforeunload = function() {
 				ws.send(JSON.stringify({cookie: getCookie('username',document.cookie),type: 'close'}));
-				// ws.close();
 			}
 			
 			// ws.onclose = function() {}
